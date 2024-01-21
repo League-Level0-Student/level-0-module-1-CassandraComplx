@@ -13,7 +13,7 @@ int count = 0;
 		// 3. Ask the user a riddle. Here are some ideas: bit.ly/some-riddles
 String input = JOptionPane.showInputDialog("When is a door no longer a door?");
 System.out.println(input);
-if (input.equals("When its ajar")) {
+if (input.equals("when its ajar")) {
 	JOptionPane.showMessageDialog(null, "correct");
 	count+=1;
 }
@@ -28,7 +28,7 @@ else {
 
 String input1 = JOptionPane.showInputDialog("What do you buy to eat but never consume?");
 System.out.println(input1);
-if (input1.equals("Cutlery")) {
+if (input1.equals("cutlery")) {
 	JOptionPane.showMessageDialog(null, "correct");
 	count+=1;
 }
@@ -41,7 +41,7 @@ else {
 
 String input2 = JOptionPane.showInputDialog("What kind of room has no walls, door or windows?");
 System.out.println(input2);
-if (input2.equals("A mushroom")) {
+if (input2.equals("a mushroom")) {
 	JOptionPane.showMessageDialog(null, "correct");
 	count+=1;
 }
